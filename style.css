@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f6f8fa;
+    color: #222;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+}
+
+.info, .tinerary, .gallery {
+    max-width: 1000px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1)
+    
+}
